@@ -15,7 +15,10 @@ T = 4.0*k1*k2/((k1+k2)**2)
 # Reflection coefficient
 R = ((k1-k2)/(k1+k2))**2
 
-print("Transmission = ", T)
-print("Reflection = ", R)
+print(f"Transmission = {T:.3f}")
+print(f"Reflection = {R:.3f}")
+
+# Vertical blank
 print()
-print(T+R)
+
+print(f"Sum of probabilities = {T+R:.3f}")
